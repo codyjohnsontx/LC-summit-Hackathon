@@ -4,7 +4,7 @@ import { useAuth } from '../auth-context';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'New React Router App' },
+    { title: 'Latency & Lattes' },
     { name: 'description', content: 'Welcome to React Router!' },
   ];
 }
@@ -13,7 +13,7 @@ export default function Home() {
   const { userId } = useAuth();
   return (
     <main className="container mx-auto p-8 text-center max-w-xl">
-      <h1 className="text-3xl font-bold mb-4">☕️ Wi-Fi Coffee Finder</h1>
+      <h1 className="text-3xl font-bold mb-4">☕️ Latency & Lattes</h1>
       <p className="mb-6 text-gray-700">
         Discover coffee shops with great internet speeds. Register to add new
         spots and share your own speed tests with the community.

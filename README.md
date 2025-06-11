@@ -1,4 +1,4 @@
-# ☕️ Wi-Fi Coffee Finder
+# ☕️ Latency & Lattes
 
 A self-contained full-stack Single-Page Application for discovering coffee shops with great internet speeds. Built entirely with **React Router v7 – Framework Mode**, it uses route-level loaders and actions in place of a traditional REST API or Express server.
 
