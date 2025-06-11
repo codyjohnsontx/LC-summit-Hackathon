@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "70dfe883-8cc3-498b-a464-5ee32a185a49",
+      "username": "cody",
+      "password": "cody"
+    }
+  ],
+  "coffeeShops": [
+    {
+      "id": "917e1e7d-7c10-490b-a15a-52d50df5db86",
+      "name": "LC Summit Shop",
+      "location": "3606 Wilson St",
+      "createdBy": "70dfe883-8cc3-498b-a464-5ee32a185a49",
+      "votes": {
+        "70dfe883-8cc3-498b-a464-5ee32a185a49": 1
+      }
+    },
+    {
+      "id": "6d5a0bae-a9a6-4474-8004-024242f0f71d",
+      "name": "Ruesink Shop",
+      "location": "Hutto Place",
+      "createdBy": "70dfe883-8cc3-498b-a464-5ee32a185a49",
+      "votes": {
+        "70dfe883-8cc3-498b-a464-5ee32a185a49": -1
+      }
+    }
+  ],
+  "speedTests": [
+    {
+      "id": "6bf85b15-c9aa-4a19-82c1-60871e5d0033",
+      "coffeeShopId": "917e1e7d-7c10-490b-a15a-52d50df5db86",
+      "download": 209.4,
+      "upload": 144.9,
+      "createdAt": "2025-06-11T18:53:45.346Z",
+      "createdBy": "70dfe883-8cc3-498b-a464-5ee32a185a49"
+    },
+    {
+      "id": "4839254a-c1b5-46ac-9456-2bf3d7171638",
+      "coffeeShopId": "6d5a0bae-a9a6-4474-8004-024242f0f71d",
+      "download": 100000000,
+      "upload": 500000000,
+      "createdAt": "2025-06-11T18:56:27.601Z",
+      "createdBy": "70dfe883-8cc3-498b-a464-5ee32a185a49"
+    }
+  ]
+}
